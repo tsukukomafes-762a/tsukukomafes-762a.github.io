@@ -185,6 +185,11 @@ img {
 
 .gbox {
   display: flex;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  padding: 0px 15px;
+  z-index: 10;
 }
 
 .page-description {
