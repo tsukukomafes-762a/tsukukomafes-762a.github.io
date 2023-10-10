@@ -15,6 +15,7 @@ li {
 
 body {
   font-family: Verdana, sans-serif;
+  background-color: dimgray;
 }
 
 .navbar {
@@ -112,7 +113,6 @@ img {
 }
 
 .bigback {
-  background-color: #06a0ff;
 }
 
 /* Slideshow container */
