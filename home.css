@@ -209,6 +209,7 @@ img {
 
 .page-icon h1 {
   font-size: 10vw;
+  --fa-pull-margin: 0;
 }
 
 .page-icon h2 {
@@ -227,3 +228,8 @@ img {
 @media (max-width: 505px) {
   .page-icon h2 {
     font-size: 20px;
+  }
+
+  .page-icon h1 {
+    font-size: 20vw;
+  }
