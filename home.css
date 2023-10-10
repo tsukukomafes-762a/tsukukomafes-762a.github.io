@@ -215,6 +215,6 @@ img {
 
 .page-icon h2:hover {
   background-color: white;
-  border: 2px solid #73AD21;
-  transition: 0.3s ease;
+  border: 2px solid black;
+  transition: 0.5s ease;
 }
