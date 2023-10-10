@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="home.js"></script>
-    <script src="https://kit.fontawesome.com/119b1a4b58.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9a4372a7f7.js" crossorigin="anonymous"></script>
     <title>わらしべ長者</title>
   </head>
   <body onload="starterFunction()">
@@ -22,7 +22,7 @@
 
         <!-- USING CHECKBOX HACK -->
         <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <label for="checkbox_toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
 
         <!-- NAVIGATION MENUS -->
         <div class="menu">
@@ -32,28 +32,32 @@
         </div>
       </ul>
     </nav>
+    
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/locked-wara.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/locked-wara.png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <img src="images/locked-wara.png" style="width:100%">
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
     <br>
     
-  <div class="slideshow-container">
-    <div class="mySlides fade">
-      <img src="images/locked-wara.png" style="width:100%">
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
     </div>
-    <div class="mySlides fade">
-      <img src="images/locked-wara.png" style="width:100%">
-    </div>
-    <div class="mySlides fade">
-      <img src="images/locked-wara.png" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-  </div>
-  <br>
-    
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-  </div>
+
+    <div class="catchcopy">
+      <h2>
+        部屋に閉じ込められたあなたは、謎を解いて藁を
+      </h2>
   </body>
 </html>
