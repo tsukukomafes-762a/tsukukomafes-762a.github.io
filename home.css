@@ -82,6 +82,7 @@ input[type=checkbox] {
   }
 
   input[type=checkbox]:checked ~ .menu {
+    transition: 1s ease;
     display: block;
     z-index: 5;
   }
