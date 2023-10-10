@@ -188,16 +188,16 @@ img {
 }
 
 .lefttext {
-  flex: 2;
+  flex: 3;
 }
 
 .lefticon {
-  flex = 1;
+  flex = 2;
 }
 .righttext {
-  flex = 2;
+  flex = 3;
 }
 
 .righticon {
-  flex = 1;
+  flex = 2;
 }
