@@ -7,6 +7,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 li {
@@ -194,7 +195,7 @@ img {
 
 .page-description {
   flex: 2;
-  padding: 16px;
+  padding: 32px;
 }
 
 .page-icon {
@@ -214,5 +215,6 @@ img {
 
 .page-icon h2:hover {
   background-color: white;
+  border: 2px solid #73AD21;
   transition: 0.3s ease;
 }
