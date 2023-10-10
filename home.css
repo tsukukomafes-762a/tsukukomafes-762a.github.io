@@ -183,6 +183,10 @@ img {
   .prev, .next { font-size: 11px; } ;
 }
 
+.gbox1 {
+  display: flex;
+}
+
 .lefttext {
   flex: 2;
 }
