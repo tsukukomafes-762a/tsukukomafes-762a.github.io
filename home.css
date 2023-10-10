@@ -192,12 +192,12 @@ img {
 }
 
 .lefticon {
-  flex = 2;
+  flex: 2;
 }
 .righttext {
-  flex = 3;
+  flex: 3;
 }
 
 .righticon {
-  flex = 2;
+  flex: 2;
 }
