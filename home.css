@@ -83,7 +83,7 @@ input[type=checkbox] {
 
   input[type=checkbox]:checked ~ .menu {
     display: block;
-    margin-bottom: 8px;
+    z-index: 5;
   }
 
   .hamburger {
