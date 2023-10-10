@@ -19,7 +19,7 @@ body {
 
 .navbar {
   display: flex;
-  align-items: center;f
+  align-items: center;
   justify-content: space-between;
   padding: 12px;
   background-color: teal;
