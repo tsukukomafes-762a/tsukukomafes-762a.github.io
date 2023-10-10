@@ -184,6 +184,10 @@ img {
   .prev, .next { font-size: 11px; } ;
 }
 
+.catchcopy {
+  padding: 32px;
+}
+
 .gbox {
   display: flex;
   max-width: 900px;
@@ -195,7 +199,7 @@ img {
 
 .page-description {
   flex: 2;
-  padding: 32px;
+  padding: 16px;
 }
 
 .page-icon {
@@ -219,3 +223,7 @@ img {
   border: 2px solid black;
   transition: 0.5s ease;
 }
+
+@media (max-width: 505px) {
+  .page-icon h2 {
+    font-size: 20px;
