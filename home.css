@@ -79,14 +79,15 @@ input[type=checkbox] {
     text-align: center;
     padding: 16px 0;
     opacity: 100%;
+    width: 200px;
   }
   
-  .menu li a {
+  .menu li {
     background-color: teal;
     display: inline-block;
   }
 
-  .menu li a:hover {
+  .menu li:hover {
     display: inline-block;
     background-color:#4c9e9e;
     transition: 0.3s ease;
