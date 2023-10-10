@@ -111,6 +111,10 @@ img {
   vertical-align: middle;
 }
 
+.bigback {
+  background-color: #5198f5;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 900px;
@@ -118,7 +122,6 @@ img {
   margin: auto;
   padding: 0px 15px;
   z-index: 10;
-  background-color: #4090f7;
 }
 
 /* Next & previous buttons */
@@ -178,4 +181,19 @@ img {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next { font-size: 11px; } ;
+}
+
+.lefttext {
+  flex: 2;
+}
+
+.lefticon {
+  flex = 1;
+}
+.righttext {
+  flex = 2;
+}
+
+.righttext {
+  flex = 1;
 }
