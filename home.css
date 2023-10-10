@@ -194,6 +194,7 @@ img {
 
 .page-description {
   flex: 2;
+  padding: 16px;
 }
 
 .page-icon {
