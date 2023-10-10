@@ -183,21 +183,21 @@ img {
   .prev, .next { font-size: 11px; } ;
 }
 
-.gbox1 {
+.gbox {
   display: flex;
 }
 
 .lefttext {
-  flex: 3;
+  flex: 2;
 }
 
 .lefticon {
-  flex: 2;
+  flex: 1;
 }
 .righttext {
-  flex: 3;
+  flex: 2;
 }
 
 .righticon {
-  flex: 2;
+  flex: 1;
 }
