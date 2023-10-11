@@ -273,6 +273,19 @@ input[type=checkbox] {
   padding: 4px;
 }
 
+.links li {
+  list-style: circle;
+}
+
 .links li a {
   color: blue;
+}
+
+/*info*/
+.game-info ul li {
+  list-style: circle;
+}
+
+.game-info ol li {
+  list-style: decimal;
 }
