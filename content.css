@@ -9,6 +9,10 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+ul {
+  list-style: circle;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -25,6 +29,7 @@ body {
 /* LOGO */
 .logo {
   font-size: 32px;
+  text-decoration: none;
 }
 
 .logo a {
@@ -104,8 +109,6 @@ input[type=checkbox] {
   }
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-
 
 .footing {
   background-color: teal;
