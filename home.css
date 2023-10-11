@@ -17,6 +17,9 @@ img {
   vertical-align: middle;
 }
 
+main {
+  max-width: 900px;
+
 .navbar {
   display: flex;
   align-items: center;
