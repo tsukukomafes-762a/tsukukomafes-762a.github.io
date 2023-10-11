@@ -264,10 +264,6 @@ input[type=checkbox] {
 }
 
 /* links */
-.feslinks ul, .pagelinks ul {
-  list-style: circle;
-}
-
-.feslinks, .pagelinks {
+.links {
   padding: 4px;
 }
