@@ -11,7 +11,7 @@ a {
 }
 
 li {
-  list-style: none;
+  list-style-type: none;
 }
 
 body {
@@ -273,19 +273,19 @@ input[type=checkbox] {
   padding: 4px;
 }
 
-.links li {
-  list-style: circle;
+.links ul li {
+  list-style-type: circle;
 }
 
-.links li a {
+.links ul li a {
   color: blue;
 }
 
 /*info*/
 .game-info ul li {
-  list-style: circle;
+  list-style-type: circle;
 }
 
 .game-info ol li {
-  list-style: decimal;
+  list-style-type: decimal;
 }
