@@ -267,3 +267,7 @@ input[type=checkbox] {
 .links {
   padding: 4px;
 }
+
+.links li a {
+  color: blue;
+}
