@@ -21,7 +21,7 @@ main div {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  padding: 0 1em;
+  padding: 1em;
 }
 
 .navbar {
