@@ -241,3 +241,15 @@ img {
     font-size: 20vw;
   }
 }
+
+.footing {
+  background-color: teal;
+}
+
+.footing p {
+  display: inline-block;
+}
+
+.footing a {
+  color: blue;
+}
