@@ -250,6 +250,7 @@ img {
 
 .footing {
   background-color: teal;
+  bottom: 0;
 }
 
 .footing p {
