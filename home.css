@@ -236,22 +236,27 @@ input[type=checkbox] {
   --fa-pull-margin: 0;
 }
 
-.page-icon h2 {
+.yetb h2 {
   background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.doneb h2 {
+  background-color: crimson;
   padding: 10px;
   border-radius: 6px;
   display: inline-block;
   color: white;
 }
 
-/*
-.page-icon h2:hover {
+.doneb h2:hover {
   background-color: white;
   border: 2px solid black;
   color: black;
   transition: 0.5s ease;
 }
-*/
 
 @media (max-width: 505px) {
   .page-icon h2 {
