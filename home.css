@@ -18,6 +18,10 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+img {
+  vertical-align: middle;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -108,12 +112,23 @@ input[type=checkbox] {
   }
 }
 
-.mySlides {
-  display: none;
+.footing {
+  background-color: teal;
+  bottom: 0;
 }
 
-img {
-  vertical-align: middle;
+.footing p {
+  display: inline-block;
+  color: white;
+}
+
+.footing a {
+  color: blue;
+}
+
+/* top page */
+.mySlides {
+  display: none;
 }
 
 .bigback {
@@ -248,16 +263,4 @@ img {
   }
 }
 
-.footing {
-  background-color: teal;
-  bottom: 0;
-}
-
-.footing p {
-  display: inline-block;
-  color: white;
-}
-
-.footing a {
-  color: blue;
-}
+/* links */
