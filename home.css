@@ -34,6 +34,9 @@ body {
 /* LOGO */
 .logo {
   font-size: 32px;
+}
+
+.logo a {
   color: white;
 }
 
@@ -250,6 +253,7 @@ img {
 
 .footing p {
   display: inline-block;
+  color: white;
 }
 
 .footing a {
