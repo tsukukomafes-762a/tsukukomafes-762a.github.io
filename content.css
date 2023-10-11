@@ -5,15 +5,6 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-li {
-  list-style: none;
-}
-
 body {
   font-family: Verdana, sans-serif;
 }
@@ -53,8 +44,13 @@ body {
   transition: 0.3s ease;
 }
 
+.menu li a {
+  text-decoration: none;
+}
+
 .menu li {
   padding: 5px 14px;
+  list-style: none;
 }
 
 input[type=checkbox] {
