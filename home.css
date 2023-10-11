@@ -17,10 +17,11 @@ img {
   vertical-align: middle;
 }
 
-main {
+.toptitle, .links {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  padding: 0 1em;
 }
 
 .navbar {
@@ -271,10 +272,6 @@ input[type=checkbox] {
 }
 
 /* links */
-.links {
-  padding: 4px;
-}
-
-.links ul li a {
+.links a {
   color: blue;
 }
