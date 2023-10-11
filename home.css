@@ -117,6 +117,7 @@ input[type=checkbox] {
 
 .footing {
   background-color: teal;
+  display: fixed;
   bottom: 0;
 }
 
