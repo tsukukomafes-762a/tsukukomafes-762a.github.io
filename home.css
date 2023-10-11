@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 4px;
   font-family: 'M PLUS 1p', sans-serif;
   box-sizing: border-box;
 }
@@ -264,3 +264,6 @@ input[type=checkbox] {
 }
 
 /* links */
+.feslinks ul, .pagelinks ul {
+  list-style: circle;
+}
