@@ -18,7 +18,10 @@ img {
 }
 
 main {
-  max-width: 900px;
+  max-width: 1000px;
+  display: flex;
+  position: relative;
+  margin: auto;
 }
 
 .navbar {
