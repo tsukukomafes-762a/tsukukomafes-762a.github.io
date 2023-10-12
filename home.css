@@ -284,7 +284,7 @@ input[type=checkbox] {
 }
 
 .n-box {
-  border-top-style: solid black;
+  border-top-style: solid;
   display: flex;
   padding: 2px;
   color: black;
