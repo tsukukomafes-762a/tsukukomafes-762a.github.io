@@ -24,6 +24,10 @@ main div {
   padding: 1em;
 }
 
+main a {
+  color: blue;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -213,7 +217,6 @@ input[type=checkbox] {
 
 .gbox {
   display: flex;
-  max-width: 900px;
   position: relative;
   margin: auto;
   padding: 0px 15px;
@@ -273,7 +276,27 @@ input[type=checkbox] {
   }
 }
 
-/* links */
-.links a {
-  color: blue;
+/* info */
+
+
+/* news */
+.n-box {
+  border-top-style: solid;
+  display: flex;
+  border-top-style: solid;
 }
+
+.n-date {
+  flex: 1;
+}
+
+.n-tag {
+  flex: 1;
+}
+
+.n-title {
+  flex: 3;
+}
+
+/* links */
+
