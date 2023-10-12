@@ -280,6 +280,11 @@ input[type=checkbox] {
 
 
 /* news */
+
+.news a {
+  text-decoration: none;
+}
+
 .n-box {
   border-top-style: solid;
   display: flex;
