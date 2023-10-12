@@ -309,7 +309,7 @@ input[type=checkbox] {
 
 @media (max-width: 450px) {
   .n-tag {
-    flex: 2;
+    flex: 1.5;
   }
 }
 
