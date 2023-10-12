@@ -119,16 +119,16 @@ input[type=checkbox] {
   }
 }
 
-.footing {
+#footing {
   background-color: #c5c56a;
 }
 
-.footing p {
+#footing p {
   display: inline-block;
   color: white;
 }
 
-.footing a {
+#footing a {
   color: blue;
 }
 
