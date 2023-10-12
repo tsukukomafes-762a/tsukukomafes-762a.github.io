@@ -289,11 +289,17 @@ input[type=checkbox] {
 
 .n-date {
   flex: 1;
+}
+
+.n-date h2 {
   font-size: 1em;
 }
 
 .n-tag {
   flex: 1;
+}
+
+.n-tag h3 {
   font-size: 1em;
 }
 
