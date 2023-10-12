@@ -298,10 +298,10 @@ input[type=checkbox] {
 }
 
 .n-box {
-  border-top-style: solid;
+  border-top-style: solid black;
   display: flex;
-  border-top-style: solid;
   padding: 2px;
+  color: black;
 }
 
 .n-date {
@@ -318,7 +318,7 @@ input[type=checkbox] {
 
 .n-tag h3 {
   font-size: 1em;
-  padding: 10px;
+  padding: 2px;
   border-radius: 6px;
   display: inline-block;
 }
