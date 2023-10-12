@@ -17,6 +17,18 @@ img {
   vertical-align: middle;
 }
 
+.divall {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 3em;
+}
+
+@media (max-width: 620px) {
+  .divall {
+    padding-bottom: 1.5em;
+  }
+}
+
 main div {
   max-width: 1000px;
   position: relative;
@@ -121,7 +133,7 @@ input[type=checkbox] {
 
 .footing {
   background-color: teal;
-  display: fixed;
+  position: absolute;
   bottom: 0;
 }
 
