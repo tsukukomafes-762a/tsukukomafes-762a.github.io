@@ -284,6 +284,7 @@ input[type=checkbox] {
   border-top-style: solid;
   display: flex;
   border-top-style: solid;
+  padding: 4px 1em;
 }
 
 .n-date {
@@ -295,7 +296,7 @@ input[type=checkbox] {
 }
 
 .n-title {
-  flex: 3;
+  flex: 8;
 }
 
 /* links */
