@@ -324,5 +324,10 @@ input[type=checkbox] {
   }
 }
 
+.n-box:hover {
+  background-color: whitesmoke;
+  transition: 0.3s ease;
+}
+
 /* links */
 
