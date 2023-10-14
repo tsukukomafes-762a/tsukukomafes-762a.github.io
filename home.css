@@ -251,6 +251,7 @@ input[type=checkbox] {
 
 .doneb h2 {
   background-color: crimson;
+  border: 2px solid crimson;
   padding: 10px;
   border-radius: 6px;
   display: inline-block;
