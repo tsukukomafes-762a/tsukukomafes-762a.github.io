@@ -299,30 +299,8 @@ input[type=checkbox] {
   font-size: 1em;
 }
 
-.n-tag {
-  flex: 1;
-}
-
-.n-tag h3 {
-  font-size: 1em;
-  padding: 2px;
-  border-radius: 6px;
-  display: inline-block;
-}
-
-.imp h3 {
-  background-color: red;
-  color: white;
-}
-
 .n-title {
   flex: 8;
-}
-
-@media (max-width: 450px) {
-  .n-tag {
-    flex: 1.5;
-  }
 }
 
 .n-box:hover {
