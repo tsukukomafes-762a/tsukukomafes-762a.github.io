@@ -308,5 +308,10 @@ input[type=checkbox] {
   transition: 0.3s ease;
 }
 
+/*access*/
+.access {
+  max-width: 800px;
+}
+
 /* links */
 
