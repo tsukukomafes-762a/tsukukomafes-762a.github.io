@@ -280,32 +280,32 @@ input[type=checkbox] {
 /* info */
 
 
-/* news */
+/* news, mystery */
 
-.news a {
+.list a {
   text-decoration: none;
 }
 
-.n-box {
+.l-box {
   border-top-style: solid;
   display: flex;
   padding: 2px;
   color: black;
 }
 
-.n-date {
+.l-num {
   flex: 1;
 }
 
-.n-date h2 {
+.l-num h2 {
   font-size: 1em;
 }
 
-.n-title {
+.l-title {
   flex: 8;
 }
 
-.n-box:hover {
+.l-box:hover {
   background-color: whitesmoke;
   transition: 0.3s ease;
 }
